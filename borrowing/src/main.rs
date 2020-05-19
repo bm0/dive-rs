@@ -1,5 +1,5 @@
 fn main() {
-    let x = String::from("hello"); // complex types, such as String, store some of the data on the stack and some on the heap
+    let x = String::from("hello"); // structure types, such as String, store some of the data on the stack and some on the heap
     takes_ownership(x); // moving occurs here
     // println!("x: {}", x); // for this reason they cannot be used after moving
 
